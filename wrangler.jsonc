@@ -3,7 +3,13 @@
   "name": "hono-app",
   "main": "src/index.ts",
   "compatibility_date": "2025-10-24",
-  "compatibility_flags": ["nodejs_compat"]
+  "compatibility_flags": ["nodejs_compat"],
+  "env": {
+    "dev": {},
+    "staging": {},
+    "production": {}
+  }
+
   // "vars": {
   //   "MY_VAR": "my-variable"
   // },
